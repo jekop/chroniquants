@@ -1,0 +1,54 @@
+/* @override http://jerem.local/wp-content/themes/chroniquants/stepcarousel.css */
+
+#carousel_container {
+	padding: 0 10px;
+	background: #262B2F;
+	width: 815px;
+	border-right: solid 5px #262B2F;
+	margin-bottom: 10px;
+}
+
+.stepcarousel {
+  background: #262B2F;
+  padding: 8px;
+  position: relative; /*leave this value alone*/
+  overflow: scroll; /*leave this value alone*/
+  width: 795px; /*Width of Carousel Viewer itself*/
+  height: 155px; /*Height should enough to fit largest content's height*/
+}
+
+
+.stepcarousel .belt {
+  position: absolute; /*leave this value alone*/
+  left: 0;
+  top: 0;
+}
+
+.stepcarousel .panel {
+  float: left; /*leave this value alone*/
+  overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+  margin: 10px; /*margin around each panel*/
+  width: 258px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+  height: 150px;
+  background: #14181A;
+}
+
+.panel h2 {
+	padding: 3px;
+	margin: 5px 0 0;
+	font-size: 11px;
+	font-family: Arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	top: -35px;
+	background: #000000;
+	opacity: 0.7;
+	padding: 7px;
+}
+
+.panel h2 a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
